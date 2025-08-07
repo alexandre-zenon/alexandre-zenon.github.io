@@ -22,10 +22,7 @@ a:hover {
 h1, h2, h3 {
   margin-top: 1.5rem;
 }
-ul {
-  list-style: none;
-  padding-left: 0;
-}
+
 ul li {
   margin-bottom: 0.75rem;
 }
@@ -61,7 +58,11 @@ header {
 }
 .project ul {
   margin-left: 1.2rem;
+  list-style-type: disc;   /* Use bullets */
+  padding-left: 1.5rem;    /* Indent bullets */
+  margin-top: 0.5rem;
 }
+
 
 /* Info Blocks */
 .quick-info {
@@ -82,6 +83,8 @@ header {
   justify-content: center;
   gap: 1.5rem;
   margin: 1.5rem 0;
+  list-style: none;
+  padding-left: 0;
 }
 .links li {
   display: inline;
